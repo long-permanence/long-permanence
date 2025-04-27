@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             aboutTitle.textContent = 'About Me';
             aboutText.textContent = 'A human.';
             projectsTitle.textContent = 'Projects';
-            projectsText.textContent = '...';
+            projectsText.textContent = 'Please read this website before any interaction.';
             contactTitle.textContent = 'Contact';
             contactText.textContent = 'To be updated.';
         } else {
@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
             slogan.textContent = '"I leave no trace of wings in the air, but I’m glad I have had my flight." - Rabindranath Tagore';
             aboutTitle.textContent = '關於我';
             aboutText.textContent = '人類。';
-            projectsTitle.textContent = '專案';
-            projectsText.textContent = '...';
+            projectsTitle.textContent = '提醒';
+            projectsText.textContent = '加友提醒：加好友前可以簡單自我介紹，讓彼此更了解對方。';
             contactTitle.textContent = '聯絡方式';
             contactText.textContent = '待更新';
         }
