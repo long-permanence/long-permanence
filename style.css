@@ -58,3 +58,35 @@ a:hover {
     background-color: #fff;
     color: #000;
 }
+
+/* 手機版適配 */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    p, li {
+        font-size: 1.1em;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    ul {
+        padding-left: 0;
+        list-style-position: inside;
+    }
+}
