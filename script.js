@@ -25,20 +25,20 @@ document.addEventListener('DOMContentLoaded', () => {
             name.textContent = 'Lucian';
             slogan.textContent = '"I leave no trace of wings in the air, but I’m glad I have had my flight." - Rabindranath Tagore';
             aboutTitle.textContent = 'About Me';
-            aboutText.textContent = 'A passionate developer and designer, constantly seeking new challenges and opportunities to grow.';
+            aboutText.textContent = 'A human.';
             projectsTitle.textContent = 'Projects';
-            projectsText.textContent = 'Check out some of my recent work below:';
+            projectsText.textContent = '...';
             contactTitle.textContent = 'Contact';
-            contactText.textContent = 'Feel free to reach out to me via email.';
+            contactText.textContent = 'To be updated.';
         } else {
             name.textContent = '傅寒川';
-            slogan.textContent = '"我在空中不留下翅膀的痕跡，但我很高興曾經飛過。" - 泰戈爾';
+            slogan.textContent = '"I leave no trace of wings in the air, but I’m glad I have had my flight." - Rabindranath Tagore';
             aboutTitle.textContent = '關於我';
-            aboutText.textContent = '一位熱愛技術與設計的開發者，不斷尋求新的挑戰與機會成長。';
+            aboutText.textContent = '人類。';
             projectsTitle.textContent = '專案';
-            projectsText.textContent = '以下是我最近的工作：';
-            contactTitle.textContent = '聯絡我';
-            contactText.textContent = '隨時可以通過電子郵件聯絡我。';
+            projectsText.textContent = '...';
+            contactTitle.textContent = '聯絡方式';
+            contactText.textContent = '待更新';
         }
     };
 
