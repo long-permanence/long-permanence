@@ -28,7 +28,7 @@ const updateLanguage = (lang) => {
         aboutText.innerHTML = `
             <ul>
                 <li>Name: Lucian</li>
-                <li>Games & Characters I like: HSR, Dan Heng, Dan Heng IL.</li>
+                <li>Games & Characters I like: HSR; Dan Heng, Dan Heng IL.</li>
                 <li>I'm not super into socializing (but I'm easy to get along with!). Once we're familiar, I might get pretty chatty and joke around a lot. Feel free to reach out if we share similar interests!</li>
                 <li>DNI list: Snowflakes, bad attitudes, and scams.</li>
                 <li>Things that might annoy you: I often react with Messenger emojis.</li>
