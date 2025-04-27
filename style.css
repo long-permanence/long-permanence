@@ -69,24 +69,18 @@ a:hover {
         margin-bottom: 30px;
     }
 
-    h1 {
-        font-size: 1.8em;
-        text-align: center;
-    }
-
-    h2 {
-        font-size: 1.5em;
-        text-align: center;
-    }
-
-    p, li {
+    h1, h2, p, li {
         font-size: 1.1em;
         line-height: 1.6;
-        text-align: center;
+        text-align: left; /* 改成靠左 */
     }
 
     ul {
-        padding-left: 0;
+        padding-left: 20px; /* 小小縮排，不會太貼邊 */
         list-style-position: inside;
+    }
+
+    #name {
+        white-space: nowrap; /* 中文名字不換行，橫排！ */
     }
 }
